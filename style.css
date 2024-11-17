@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    background: #1A1B21;
+}
+
+/* Main Container */
+.profile-card {
+    width: 300px;
+    color: white;
+    font-family: Inter;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.profile-card img {
+    width: 100%;
+}
+
+.profile-card h1 {
+    font-size: 25px;
+    margin: 10px 0 5px 0;
+}
+
+.profile-card p {
+    font-size: 0.9rem;
+    margin: 0;
+    color: #d6d6d6;
+}
+
+.profile-card .subheading {
+    color: #F3BF99;
+    font-size: 12.8px;
+    line-height: normal;
+}
+
+.profile-card .bento {
+    text-decoration: none;
+    color: white;
+    font-size: 10.24px;
+    line-height: 150%;
+}
+
+/* Buttons */
+.profile-card .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.profile-card .buttons a {
+    width: 115px;
+    text-decoration: none;
+    display: flex;
+    padding: 9px 13px 9px 11px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 6px;
+    background: #5093E2;
+    color: #FFFFFF;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    transition: background-color 0.3s ease;
+    line-height: 16px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.profile-card .buttons a.email {
+    color: #1E1F26;
+    background-color: #FFFFFF;
+    border: 1px solid #D1D5DB;
+}
+
+.profile-card .buttons a:hover {
+    background-color: #005580;
+    border: 0;
+}
+
+.profile-card .buttons i {
+    background: none;
+}
+
+/* About and Interests sections */
+.profile-card .content {
+    padding-left:10%;
+    text-align: left;
+}
+
+.profile-card .content h2 {
+    font-size: 16px;
+    line-height: 150%;
+    color: #F5F5F5;
+}
+
+.profile-card .content p {
+    font-size: 10.24px;
+    line-height: 150%;
+    padding-bottom: 15px;
+}
+
+/* Social icons */
+.profile-card .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 0px 0px 10px 10px;
+    background: #161619;
+}
+
+.profile-card .social-icons a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #918E9B;
+    transition: color 0.3s ease;
+    padding: 15px;
+    background: none;
+}
+
+.profile-card .social-icons a:hover {
+    color: #0077b5;
+    background: none;
+}
